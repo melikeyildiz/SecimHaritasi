@@ -1,3 +1,5 @@
+startProgress();
+
 const nav = document.querySelector(".nav");
         searcIcon = document.querySelector("#searchIcon");
         navOpenBtn = document.querySelector(".navOpenBtn");
@@ -82,9 +84,6 @@ function svgturkiyeharitasi() {
   }
 
 
-  
-
-startProgress();
 
 function move(progressBarId, startWidth, endWidth) {
   var elem = document.getElementById(progressBarId);
